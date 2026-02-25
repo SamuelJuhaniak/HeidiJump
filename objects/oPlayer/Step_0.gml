@@ -24,16 +24,7 @@ if (place_meeting(x, y + 1, oSolid)) {
 
 // RESTART GAME
 if (place_meeting(x, y, oSpikes) || y > room_height || y < 0 || x > room_width || x < 0) { 
-    if(currentHealth > 0) {
-		currentHealth--;
-		MusicManager.musicToPlay = dieSound;
-		MusicManager.musicPriority = 1;
-		// Red screen
-		//room.layer_background
-		room_restart() 	
-	}else{
-		//GAME OVER SCREEN
-	}
+    room_restart() 
 }
 
 move_and_collide(x_speed, y_speed, oSolid);

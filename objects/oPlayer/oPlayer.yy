@@ -9,8 +9,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainGame",
-    "path":"folders/Objects/MainGame.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
