@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"level1","order":8,"path":"folders/Objects/level1.yy",},
     {"name":"Menu","order":5,"path":"folders/Objects/Menu.yy",},
     {"name":"Scenes","order":3,"path":"folders/Scenes.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
