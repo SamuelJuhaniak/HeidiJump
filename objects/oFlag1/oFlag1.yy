@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oFlag1",
+  "eventList":[],
   "managed":true,
-  "name":"oPlayer",
+  "name":"oFlag1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -23,7 +19,7 @@
   "physicsLinearDamping":0.1,
   "physicsObject":false,
   "physicsRestitution":0.1,
-  "physicsSensor":false,
+  "physicsSensor":true,
   "physicsShape":1,
   "physicsShapePoints":[
     {"x":0.0,"y":0.0,},
@@ -37,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sFlag1",
+    "path":"sprites/sFlag1/sFlag1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
