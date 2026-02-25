@@ -40,6 +40,7 @@
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"_999d56fd_8574_4755_907f_d940e811b684","path":"sprites/_999d56fd_8574_4755_907f_d940e811b684/_999d56fd_8574_4755_907f_d940e811b684.yy",},},
     {"id":{"name":"background0","path":"sprites/background0/background0.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},

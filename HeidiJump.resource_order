@@ -17,6 +17,7 @@
     {"name":"GameOver","order":2,"path":"rooms/GameOver/GameOver.yy",},
     {"name":"Level1","order":3,"path":"rooms/Level1/Level1.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
+    {"name":"_999d56fd_8574_4755_907f_d940e811b684","order":2,"path":"sprites/_999d56fd_8574_4755_907f_d940e811b684/_999d56fd_8574_4755_907f_d940e811b684.yy",},
     {"name":"sFlag1","order":8,"path":"sprites/sFlag1/sFlag1.yy",},
     {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
     {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
