@@ -10,8 +10,8 @@
   "name":"MusicManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Global",
-    "path":"folders/Objects/Global.yy",
+    "name":"Menu",
+    "path":"folders/Objects/Menu.yy",
   },
   "parentObjectId":null,
   "persistent":true,

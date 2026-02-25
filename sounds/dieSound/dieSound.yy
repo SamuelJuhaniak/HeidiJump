@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"dieSound",
   "parent":{
-    "name":"MainGame",
-    "path":"folders/Objects/MainGame.yy",
+    "name":"Music",
+    "path":"folders/Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

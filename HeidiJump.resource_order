@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Music","order":5,"path":"folders/Music.yy",},
     {"name":"Images","order":4,"path":"folders/Images.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
     {"name":"Menu","order":5,"path":"folders/Objects/Menu.yy",},
@@ -8,6 +9,7 @@
     {"name":"Menu","order":5,"path":"folders/Sprites/Menu.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"MusicManager","order":1,"path":"objects/MusicManager/MusicManager.yy",},
     {"name":"oFlag","order":1,"path":"objects/oFlag/oFlag.yy",},
     {"name":"oFlag1","order":7,"path":"objects/oFlag1/oFlag1.yy",},
     {"name":"oPlatform","order":3,"path":"objects/oPlatform/oPlatform.yy",},
@@ -16,6 +18,7 @@
     {"name":"GameOver","order":2,"path":"rooms/GameOver/GameOver.yy",},
     {"name":"Level2","order":3,"path":"rooms/Level2/Level2.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
+    {"name":"menuMusic","order":1,"path":"sounds/menuMusic/menuMusic.yy",},
     {"name":"flagImage","order":2,"path":"sprites/flagImage/flagImage.yy",},
     {"name":"sFlag1","order":8,"path":"sprites/sFlag1/sFlag1.yy",},
     {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
