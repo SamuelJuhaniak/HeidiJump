@@ -1,15 +1,21 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Menu","order":5,"path":"folders/Objects/Menu.yy",},
+    {"name":"Scenes","order":3,"path":"folders/Scenes.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"MainGame","order":6,"path":"folders/Sprites/MainGame.yy",},
+    {"name":"Menu","order":5,"path":"folders/Sprites/Menu.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"oFlag","order":1,"path":"objects/oFlag/oFlag.yy",},
     {"name":"oPlatform","order":3,"path":"objects/oPlatform/oPlatform.yy",},
     {"name":"oSolid","order":4,"path":"objects/oSolid/oSolid.yy",},
     {"name":"oSpikes","order":2,"path":"objects/oSpikes/oSpikes.yy",},
-    {"name":"sFlag","order":2,"path":"sprites/sFlag/sFlag.yy",},
+    {"name":"GameOver","order":2,"path":"rooms/GameOver/GameOver.yy",},
+    {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
     {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
+    {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sSpikes","order":3,"path":"sprites/sSpikes/sSpikes.yy",},
   ],
 }
