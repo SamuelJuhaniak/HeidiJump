@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Global","order":6,"path":"folders/Objects/Global.yy",},
+    {"name":"MainGame","order":7,"path":"folders/Objects/MainGame.yy",},
     {"name":"Menu","order":5,"path":"folders/Objects/Menu.yy",},
     {"name":"Scenes","order":3,"path":"folders/Scenes.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
@@ -8,12 +10,14 @@
     {"name":"Menu","order":5,"path":"folders/Sprites/Menu.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oFlag","order":1,"path":"objects/oFlag/oFlag.yy",},
-    {"name":"oPlatform","order":3,"path":"objects/oPlatform/oPlatform.yy",},
-    {"name":"oSolid","order":4,"path":"objects/oSolid/oSolid.yy",},
-    {"name":"oSpikes","order":2,"path":"objects/oSpikes/oSpikes.yy",},
+    {"name":"oPlatform","order":1,"path":"objects/oPlatform/oPlatform.yy",},
+    {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oSolid","order":3,"path":"objects/oSolid/oSolid.yy",},
+    {"name":"oSpikes","order":4,"path":"objects/oSpikes/oSpikes.yy",},
     {"name":"GameOver","order":2,"path":"rooms/GameOver/GameOver.yy",},
     {"name":"Menu","order":1,"path":"rooms/Menu/Menu.yy",},
+    {"name":"dieSound","order":5,"path":"sounds/dieSound/dieSound.yy",},
+    {"name":"menuMusic","order":1,"path":"sounds/menuMusic/menuMusic.yy",},
     {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
     {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sSpikes","order":3,"path":"sprites/sSpikes/sSpikes.yy",},

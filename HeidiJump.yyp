@@ -11,6 +11,8 @@
   "defaultScriptType":0,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Global","folderPath":"folders/Objects/Global.yy","name":"Global","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"MainGame","folderPath":"folders/Objects/MainGame.yy","name":"MainGame","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Objects/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scenes","folderPath":"folders/Scenes.yy","name":"Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -27,6 +29,7 @@
   "name":"HeidiJump",
   "resources":[
     {"id":{"name":"basicFont","path":"fonts/basicFont/basicFont.yy",},},
+    {"id":{"name":"MusicManager","path":"objects/MusicManager/MusicManager.yy",},},
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},},
     {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -35,6 +38,8 @@
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"MainGame","path":"rooms/MainGame/MainGame.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"dieSound","path":"sounds/dieSound/dieSound.yy",},},
+    {"id":{"name":"menuMusic","path":"sounds/menuMusic/menuMusic.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
     {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},},
