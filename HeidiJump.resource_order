@@ -20,6 +20,7 @@
     {"name":"sFlag1","order":8,"path":"sprites/sFlag1/sFlag1.yy",},
     {"name":"sPlatform","order":1,"path":"sprites/sPlatform/sPlatform.yy",},
     {"name":"sPlayer","order":2,"path":"sprites/sPlayer/sPlayer.yy",},
+    {"name":"Sprite7","order":4,"path":"sprites/Sprite7/Sprite7.yy",},
     {"name":"sSpikes","order":3,"path":"sprites/sSpikes/sSpikes.yy",},
   ],
 }
