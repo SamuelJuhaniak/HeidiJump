@@ -6,8 +6,8 @@
   "name":"oPlatform",
   "overriddenProperties":[],
   "parent":{
-    "name":"MainGame",
-    "path":"folders/Objects/MainGame.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
     "name":"oSolid",

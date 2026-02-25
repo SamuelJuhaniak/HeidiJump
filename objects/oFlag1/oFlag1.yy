@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oSolid",
+  "%Name":"oFlag1",
   "eventList":[],
   "managed":true,
-  "name":"oSolid",
+  "name":"oFlag1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -19,15 +19,23 @@
   "physicsLinearDamping":0.1,
   "physicsObject":false,
   "physicsRestitution":0.1,
-  "physicsSensor":false,
+  "physicsSensor":true,
   "physicsShape":1,
-  "physicsShapePoints":[],
+  "physicsShapePoints":[
+    {"x":0.0,"y":0.0,},
+    {"x":16.0,"y":0.0,},
+    {"x":16.0,"y":16.0,},
+    {"x":0.0,"y":16.0,},
+  ],
   "physicsStartAwake":true,
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sFlag1",
+    "path":"sprites/sFlag1/sFlag1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
