@@ -10,8 +10,8 @@
   },
   "defaultScriptType":0,
   "Folders":[
-    {"$GMFolder":"","%Name":"Music","folderPath":"folders/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Images","folderPath":"folders/Images.yy","name":"Images","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Music","folderPath":"folders/Music.yy","name":"Music","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Objects/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scenes","folderPath":"folders/Scenes.yy","name":"Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -54,9 +54,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
-    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
   ],
   "templateType":"game",
