@@ -1,24 +1,23 @@
 draw_self();
 
-// Hint ked je hrac blizko
 if (player_near && !dialog_active)
 {
     draw_set_color(c_white);
-    draw_text(x - 35, y - 24, "Press E");
+    draw_text_transformed(x - 5, y - 15, "Press E", 0.3, 0.3, 0);
 }
 
-// ===== MALY DIALOG BOX =====
 if (dialog_active)
 {
-    var box_w = 157;
-    var box_h = 22;
+    box_w = 80;
+    box_h = 12;
     
-    var box_x = (room_width - box_w) / 2;
-    var box_y = room_height - 30;
+    box_x = (room_width - box_w) / 2;
+    box_y = room_height - 60;
 
-    draw_set_color(c_black);
+    draw_set_color(#333232);
     draw_rectangle(box_x, box_y, box_x + box_w, box_y + box_h, false);
 
     draw_set_color(c_white);
-    draw_text(box_x + 1, box_y + 3, dialog_text[dialog_index]);
+
+    draw_text_transformed(box_x + 1, box_y + 3, dialog_text[dialog_index], 0.3, 0.3, 0);
 }
