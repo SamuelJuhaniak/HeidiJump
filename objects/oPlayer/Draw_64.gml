@@ -1,9 +1,7 @@
-gui_x = 1000;
-gui_y = 50;
+gui_x = view_wport[0] - 350;
+gui_y = view_hport[0] - 710;
 gui_space = 50;
 gui_scale = 3;
-
-
 
 for (i = 1; i <= maxHealth; i++){
 	if(i <= currentHealth){

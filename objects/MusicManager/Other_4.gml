@@ -4,4 +4,9 @@ switch (room){
 		musicPriority = 5;
 		musicLoop = true;
 		break;
+	case Level1:
+		musicToPlay = levelMusic;
+		musicPriority = 5;
+		musicLoop = true;
+		break;
 }
