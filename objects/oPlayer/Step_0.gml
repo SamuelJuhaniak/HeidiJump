@@ -24,6 +24,7 @@ if(currentHealth != 0){ //Health check!
 	}
 
 
+
 	// I added more controls :D
 
 	// RESTART GAME
