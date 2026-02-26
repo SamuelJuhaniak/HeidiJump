@@ -14,12 +14,6 @@
     {"name":"sWinPlayer","order":1,"path":"sprites/sWinPlayer/sWinPlayer.yy",},
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"oCreators","order":1,"path":"objects/oCreators/oCreators.yy",},
-    {"name":"oDirt","order":1,"path":"objects/oDirt/oDirt.yy",},
-    {"name":"oPlatform","order":3,"path":"objects/oPlatform/oPlatform.yy",},
-    {"name":"oRockPlatform","order":4,"path":"objects/oRockPlatform/oRockPlatform.yy",},
-    {"name":"oSpikes","order":2,"path":"objects/oSpikes/oSpikes.yy",},
-    {"name":"victoryMusic","order":1,"path":"sounds/victoryMusic/victoryMusic.yy",},
-    {"name":"sHealthWin","order":1,"path":"sprites/sHealthWin/sHealthWin.yy",},
+    {"name":"gameoverSound","order":1,"path":"sounds/gameoverSound/gameoverSound.yy",},
   ],
 }
