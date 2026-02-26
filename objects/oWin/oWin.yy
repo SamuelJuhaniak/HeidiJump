@@ -6,10 +6,13 @@
   "name":"oWin",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Flags",
+    "path":"folders/Objects/Flags.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oFlagParent",
+    "path":"objects/oFlagParent/oFlagParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

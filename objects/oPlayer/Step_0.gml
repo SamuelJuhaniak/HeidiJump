@@ -2,8 +2,8 @@ x_speed = 0; // speed reset
 y_speed += grav; // gravity 
 
 // MOVEMENT X, Y
-if(currentHealth != 0){ //Health check!
-		if (!global.level_complete){// X
+if(currentHealth > 0 && canMove == true){ //Health check!
+	
 	if(keyboard_check(vk_right) || keyboard_check(ord("D"))){
 		x_speed = movement_speed;
 		image_xscale = -1; // flip player sprite to RIGHT
@@ -11,9 +11,9 @@ if(currentHealth != 0){ //Health check!
 		x_speed = -movement_speed;
 		image_xscale = 1; // flip player sprite to LEFT
 	}
-}
 
-	if (!global.level_complete){// Y
+
+	// Y
 	if (place_meeting(x, y + 1, oSolid)) {
 		//oPlayer is onGround 
 		if (keyboard_check_pressed(vk_up) || keyboard_check(vk_space) || keyboard_check(ord("W"))) {
@@ -23,7 +23,6 @@ if(currentHealth != 0){ //Health check!
 		}
 	}
 
-	}
 	// I added more controls :D
 
 	// RESTART GAME
@@ -35,10 +34,6 @@ if(currentHealth != 0){ //Health check!
 			MusicManager.musicPriority = 1;
 			// Red screen
 			//room.layer_background
-		
-			// DOCASNE, POTOM RESPAWN SCIRPT
-			//x = 48;
-			//y = 128;
 			
 			switch(room){
 				case Level1:
@@ -49,9 +44,14 @@ if(currentHealth != 0){ //Health check!
 					x = 48;
 					y = 32;
 					break;
+				case Level3:
+					x = 64;
+					y= 80;
+					break;
 			}
 			
 		}else{
+			
 			//GAME OVER SCREEN
 		}
 	}
