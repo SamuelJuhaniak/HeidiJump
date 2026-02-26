@@ -1,4 +1,10 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"GameOver","order":1,"path":"folders/Objects/GameOver.yy",},
+    {"name":"GameOver","order":1,"path":"folders/Sprites/GameOver.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oRestartButton","order":1,"path":"objects/oRestartButton/oRestartButton.yy",},
+    {"name":"Victory","order":1,"path":"rooms/Victory/Victory.yy",},
+  ],
 }
