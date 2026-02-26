@@ -37,8 +37,20 @@ if(currentHealth != 0){ //Health check!
 			//room.layer_background
 		
 			// DOCASNE, POTOM RESPAWN SCIRPT
-			x = 48;
-			y = 128;
+			//x = 48;
+			//y = 128;
+			
+			switch(room){
+				case Level1:
+					x = 48;
+					y = 128;
+					break;
+				case Level2:
+					x = 48;
+					y = 32;
+					break;
+			}
+			
 		}else{
 			//GAME OVER SCREEN
 		}
