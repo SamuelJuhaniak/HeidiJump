@@ -72,6 +72,7 @@
     {"id":{"name":"menuMusic","path":"sounds/menuMusic/menuMusic.yy",},},
     {"id":{"name":"winMusic","path":"sounds/winMusic/winMusic.yy",},},
     {"id":{"name":"backgroundImage","path":"sprites/backgroundImage/backgroundImage.yy",},},
+    {"id":{"name":"blue_sky_background_in_sunny_bright_day_vector","path":"sprites/blue_sky_background_in_sunny_bright_day_vector/blue_sky_background_in_sunny_bright_day_vector.yy",},},
     {"id":{"name":"cave","path":"sprites/cave/cave.yy",},},
     {"id":{"name":"flagImage","path":"sprites/flagImage/flagImage.yy",},},
     {"id":{"name":"health","path":"sprites/health/health.yy",},},
