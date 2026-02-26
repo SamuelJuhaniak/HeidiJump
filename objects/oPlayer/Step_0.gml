@@ -3,8 +3,7 @@ y_speed += grav; // gravity
 
 // MOVEMENT X, Y
 if(currentHealth != 0){ //Health check!
-	
-	// X
+		if (!global.level_complete){// X
 	if(keyboard_check(vk_right) || keyboard_check(ord("D"))){
 		x_speed = movement_speed;
 		image_xscale = -1; // flip player sprite to RIGHT
@@ -12,8 +11,9 @@ if(currentHealth != 0){ //Health check!
 		x_speed = -movement_speed;
 		image_xscale = 1; // flip player sprite to LEFT
 	}
+}
 
-	// Y
+	if (!global.level_complete){// Y
 	if (place_meeting(x, y + 1, oSolid)) {
 		//oPlayer is onGround 
 		if (keyboard_check_pressed(vk_up) || keyboard_check(vk_space) || keyboard_check(ord("W"))) {
@@ -23,7 +23,7 @@ if(currentHealth != 0){ //Health check!
 		}
 	}
 
-
+	}
 	// I added more controls :D
 
 	// RESTART GAME

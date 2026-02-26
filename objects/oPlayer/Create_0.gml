@@ -6,3 +6,5 @@ maxHealth = 5;
 grav = 0.5;
 
 currentHealth = maxHealth;
+
+global.level_complete = false;

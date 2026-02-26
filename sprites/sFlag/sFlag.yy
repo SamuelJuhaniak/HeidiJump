@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"sFlag",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":15,
-  "bbox_left":2,
-  "bbox_right":12,
+  "bbox_left":4,
+  "bbox_right":9,
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
