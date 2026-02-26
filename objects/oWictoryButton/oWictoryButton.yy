@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oRockPlatform",
-  "eventList":[],
+  "%Name":"oWictoryButton",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oRockPlatform",
+  "name":"oWictoryButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"HeidiJump",
-    "path":"HeidiJump.yyp",
+    "name":"Victory",
+    "path":"folders/Objects/Victory.yy",
   },
   "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
+    "name":"oButtonParent",
+    "path":"objects/oButtonParent/oButtonParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,12 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRockPlatform",
-    "path":"sprites/sRockPlatform/sRockPlatform.yy",
+    "name":"sButton",
+    "path":"sprites/sButton/sButton.yy",
   },
-  "spriteMaskId":{
-    "name":"sRockPlatform",
-    "path":"sprites/sRockPlatform/sRockPlatform.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

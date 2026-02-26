@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oRockPlatform",
+  "%Name":"oCrown",
   "eventList":[],
   "managed":true,
-  "name":"oRockPlatform",
+  "name":"oCrown",
   "overriddenProperties":[],
   "parent":{
-    "name":"HeidiJump",
-    "path":"HeidiJump.yyp",
+    "name":"Victory",
+    "path":"folders/Objects/Victory.yy",
   },
-  "parentObjectId":{
-    "name":"oSolid",
-    "path":"objects/oSolid/oSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sRockPlatform",
-    "path":"sprites/sRockPlatform/sRockPlatform.yy",
+    "name":"sCrown",
+    "path":"sprites/sCrown/sCrown.yy",
   },
-  "spriteMaskId":{
-    "name":"sRockPlatform",
-    "path":"sprites/sRockPlatform/sRockPlatform.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

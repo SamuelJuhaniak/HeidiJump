@@ -1,4 +1,16 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Victory","order":1,"path":"folders/Objects/Victory.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oCrown","order":1,"path":"objects/oCrown/oCrown.yy",},
+    {"name":"oDirt","order":2,"path":"objects/oDirt/oDirt.yy",},
+    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
+    {"name":"oRockPlatform","order":4,"path":"objects/oRockPlatform/oRockPlatform.yy",},
+    {"name":"oSolid","order":1,"path":"objects/oSolid/oSolid.yy",},
+    {"name":"oSpikes","order":3,"path":"objects/oSpikes/oSpikes.yy",},
+    {"name":"oWinPlayer","order":2,"path":"objects/oWinPlayer/oWinPlayer.yy",},
+    {"name":"sCrown","order":1,"path":"sprites/sCrown/sCrown.yy",},
+    {"name":"sWinPlayer","order":1,"path":"sprites/sWinPlayer/sWinPlayer.yy",},
+  ],
 }
