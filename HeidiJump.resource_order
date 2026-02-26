@@ -1,28 +1,4 @@
 {
-  "FolderOrderSettings":[
-    {"name":"GameOver","order":1,"path":"folders/Objects/GameOver.yy",},
-    {"name":"GameOver","order":1,"path":"folders/Sprites/GameOver.yy",},
-  ],
-  "ResourceOrderSettings":[
-    {"name":"oRestartButton","order":1,"path":"objects/oRestartButton/oRestartButton.yy",},
-    {"name":"Victory","order":1,"path":"rooms/Victory/Victory.yy",},
-    {"name":"Blocks","order":4,"path":"folders/Objects/Blocks.yy",},
-    {"name":"Flags","order":3,"path":"folders/Objects/Flags.yy",},
-    {"name":"Entities","order":5,"path":"folders/Objects/Entities.yy",},
-    {"name":"Managers","order":1,"path":"folders/Objects/Managers.yy",},
-  ],
-  "ResourceOrderSettings":[
-    {"name":"oFlag1","order":1,"path":"objects/oFlag1/oFlag1.yy",},
-    {"name":"oFlagParent","order":2,"path":"objects/oFlagParent/oFlagParent.yy",},
-    {"name":"oPlatform","order":1,"path":"objects/oPlatform/oPlatform.yy",},
-    {"name":"oPlayer","order":1,"path":"objects/oPlayer/oPlayer.yy",},
-    {"name":"oRockPlatform","order":2,"path":"objects/oRockPlatform/oRockPlatform.yy",},
-    {"name":"oSolid","order":3,"path":"objects/oSolid/oSolid.yy",},
-    {"name":"oSpikes","order":4,"path":"objects/oSpikes/oSpikes.yy",},
-    {"name":"oWin","order":3,"path":"objects/oWin/oWin.yy",},
-    {"name":"level2Music","order":1,"path":"sounds/level2Music/level2Music.yy",},
-    {"name":"level3Music","order":2,"path":"sounds/level3Music/level3Music.yy",},
-    {"name":"levelupSound","order":3,"path":"sounds/levelupSound/levelupSound.yy",},
-    {"name":"winMusic","order":4,"path":"sounds/winMusic/winMusic.yy",},
-  ],
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[],
 }

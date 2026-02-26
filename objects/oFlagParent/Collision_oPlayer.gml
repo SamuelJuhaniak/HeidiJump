@@ -6,4 +6,9 @@ MusicManager.musicToPlay = levelupSound;
 MusicManager.musicPriority = 1
 MusicManager.musicLoop = false;
 
-//room_goto(nextLevel);
+if(currentLevel != 3){
+	roomName = "Level" + string(currentLevel + 1);
+	room_goto(asset_get_index(roomName));
+}else{
+	room_goto(Victory);
+}

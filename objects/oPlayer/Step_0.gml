@@ -28,11 +28,15 @@ if(currentHealth > 0 && canMove == true){ //Health check!
 	// RESTART GAME
 	if (place_meeting(x, y, oSpikes) || y > room_height || y < 0 || x > room_width || x < 0) { 
 	    if(currentHealth > 0) {
-			currentHealth--;
+			currentHealth--; 
 			// NEJAKY DEAD EFFECT 
 			MusicManager.musicToPlay = dieSound;
 			MusicManager.musicPriority = 1;
+			MusicManager.musicLoop = false;
 			// Red screen
+			
+			flash_alpha = 0.6; // sila efektu
+			alarm[0] = room_speed * 0.2;
 			//room.layer_background
 			
 			switch(room){
@@ -53,6 +57,8 @@ if(currentHealth > 0 && canMove == true){ //Health check!
 		}else{
 			
 			//GAME OVER SCREEN
+			//SOUND
+			room_goto(GameOver);
 		}
 	}
 

@@ -5,7 +5,7 @@
   "managed":true,
   "name":"oFlag1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oFlagParent","path":"objects/oFlagParent/oFlagParent.yy",},"propertyId":{"name":"nextLevel","path":"objects/oFlagParent/oFlagParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oFlagParent","path":"objects/oFlagParent/oFlagParent.yy",},"propertyId":{"name":"currentLevel","path":"objects/oFlagParent/oFlagParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"Flags",
