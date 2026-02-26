@@ -1,3 +1,5 @@
+audio_stop_all()
+
 switch (room){
 	case Menu:
 		musicToPlay = menuMusic;
