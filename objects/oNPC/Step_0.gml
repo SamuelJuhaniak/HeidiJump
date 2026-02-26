@@ -4,20 +4,20 @@ if (instance_exists(oPlayer))
     
     player_near = dist < interaction_distance;
 
-    // Stlac E pre zapnutie/vypnutie dialogu
-    if (player_near && keyboard_check_pressed(ord("E")))
-    {
-        dialog_active = !dialog_active;
+if(!dialog_active){
+	    if (player_near && keyboard_check_pressed(ord("E")))
+	    {
+	        dialog_active = !dialog_active;
 
-        if (dialog_active)
-        {
-            dialog_index = 0;
-        }
-    }
+	        if (dialog_active)
+	        {
+	            dialog_index = 0;
+	        }
+	    }
+	}
 }
 
-// Posuvanie textu medzerou
-if (dialog_active && keyboard_check_pressed(vk_space))
+if (dialog_active && keyboard_check_pressed(ord("E")))
 {
     dialog_index++;
 
