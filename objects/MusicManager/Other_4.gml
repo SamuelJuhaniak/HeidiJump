@@ -1,4 +1,5 @@
-audio_stop_all()
+audio_stop_all();
+
 
 switch (room){
 	case Menu:
@@ -21,4 +22,8 @@ switch (room){
 		musicPriority = 5;
 		musicLoop = true;
 		break;
+	case GameOver:
+		musicToPlay = gameoverSound;
+		musicPriority = 1;
+		musicLoop = false;
 }

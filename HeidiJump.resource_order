@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"gameoverSound","order":1,"path":"sounds/gameoverSound/gameoverSound.yy",},
+  ],
 }
