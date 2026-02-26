@@ -12,5 +12,8 @@
     {"name":"oWinPlayer","order":2,"path":"objects/oWinPlayer/oWinPlayer.yy",},
     {"name":"sCrown","order":1,"path":"sprites/sCrown/sCrown.yy",},
     {"name":"sWinPlayer","order":1,"path":"sprites/sWinPlayer/sWinPlayer.yy",},
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"gameoverSound","order":1,"path":"sounds/gameoverSound/gameoverSound.yy",},
   ],
 }
