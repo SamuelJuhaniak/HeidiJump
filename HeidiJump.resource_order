@@ -4,6 +4,10 @@
     {"name":"Menu","order":2,"path":"folders/Sprites/Menu.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"oRockPlatform","order":1,"path":"objects/oRockPlatform/oRockPlatform.yy",},
+    {"name":"cave","order":2,"path":"sprites/cave/cave.yy",},
+    {"name":"rock","order":1,"path":"sprites/rock/rock.yy",},
     {"name":"sMusicManager","order":3,"path":"sprites/sMusicManager/sMusicManager.yy",},
+    {"name":"sRockPlatform","order":4,"path":"sprites/sRockPlatform/sRockPlatform.yy",},
   ],
 }
