@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"oFlag",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oFlag",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oFlagParent","path":"objects/oFlagParent/oFlagParent.yy",},"propertyId":{"name":"nextLevel","path":"objects/oFlagParent/oFlagParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Flags",
+    "path":"folders/Objects/Flags.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oFlagParent",
+    "path":"objects/oFlagParent/oFlagParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
