@@ -47,6 +47,7 @@
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
     {"id":{"name":"sFlag1","path":"sprites/sFlag1/sFlag1.yy",},},
+    {"id":{"name":"sMusicManager","path":"sprites/sMusicManager/sMusicManager.yy",},},
     {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},},

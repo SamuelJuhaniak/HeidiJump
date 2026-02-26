@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[
+    {"name":"MainGame","order":1,"path":"folders/Sprites/MainGame.yy",},
+    {"name":"Menu","order":2,"path":"folders/Sprites/Menu.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"sMusicManager","order":3,"path":"sprites/sMusicManager/sMusicManager.yy",},
+  ],
+}
