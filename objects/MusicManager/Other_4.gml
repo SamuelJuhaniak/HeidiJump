@@ -22,14 +22,8 @@ switch (room){
 		musicPriority = 5;
 		musicLoop = true;
 		break;
-	case Victory:
-		musicToPlay = victoryMusic;
-		musicPriority = 5;
-		musicLoop = true;
-		break;
 	case GameOver:
 		musicToPlay = gameoverSound;
 		musicPriority = 1;
 		musicLoop = false;
-		break;
-}		
+}

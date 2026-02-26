@@ -38,11 +38,6 @@
     {"id":{"name":"buttonFont","path":"fonts/buttonFont/buttonFont.yy",},},
     {"id":{"name":"MusicManager","path":"objects/MusicManager/MusicManager.yy",},},
     {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},},
-<<<<<<< Updated upstream
-=======
-    {"id":{"name":"oCreators","path":"objects/oCreators/oCreators.yy",},},
-    {"id":{"name":"oCrown","path":"objects/oCrown/oCrown.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"oDirt","path":"objects/oDirt/oDirt.yy",},},
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},},
     {"id":{"name":"oFlag1","path":"objects/oFlag1/oFlag1.yy",},},
@@ -57,10 +52,6 @@
     {"id":{"name":"oSkeleton","path":"objects/oSkeleton/oSkeleton.yy",},},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},},
-<<<<<<< Updated upstream
-=======
-    {"id":{"name":"oVictoryButton","path":"objects/oVictoryButton/oVictoryButton.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"oWin","path":"objects/oWin/oWin.yy",},},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
@@ -75,7 +66,6 @@
     {"id":{"name":"levelMusic","path":"sounds/levelMusic/levelMusic.yy",},},
     {"id":{"name":"levelupSound","path":"sounds/levelupSound/levelupSound.yy",},},
     {"id":{"name":"menuMusic","path":"sounds/menuMusic/menuMusic.yy",},},
-    {"id":{"name":"victoryMusic","path":"sounds/victoryMusic/victoryMusic.yy",},},
     {"id":{"name":"winMusic","path":"sounds/winMusic/winMusic.yy",},},
     {"id":{"name":"backgroundImage","path":"sprites/backgroundImage/backgroundImage.yy",},},
     {"id":{"name":"cave","path":"sprites/cave/cave.yy",},},
@@ -91,7 +81,6 @@
     {"id":{"name":"sFlag1","path":"sprites/sFlag1/sFlag1.yy",},},
     {"id":{"name":"sHealth","path":"sprites/sHealth/sHealth.yy",},},
     {"id":{"name":"sHealthDown","path":"sprites/sHealthDown/sHealthDown.yy",},},
-    {"id":{"name":"sHealthWin","path":"sprites/sHealthWin/sHealthWin.yy",},},
     {"id":{"name":"sMusicManager","path":"sprites/sMusicManager/sMusicManager.yy",},},
     {"id":{"name":"sNPC","path":"sprites/sNPC/sNPC.yy",},},
     {"id":{"name":"sPlatform","path":"sprites/sPlatform/sPlatform.yy",},},
@@ -107,13 +96,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
-<<<<<<< Updated upstream
-=======
-    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
-    {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
-    {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
->>>>>>> Stashed changes
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
   ],
