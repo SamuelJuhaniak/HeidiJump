@@ -1,12 +1,11 @@
 dialog_text = [
-    "Mom, is that you?",
-	"I hope u like this Game",
-	"This is our first game!!",
-	"and.. We want stickers :3"
+    "Mom, is that you?"
 ];
-
-interaction_distance =150;
 
 dialog_index = 0;
 dialog_active = false;
 player_near = false;
+
+// Interakcna vzdialenost
+// 1 + 6x 16px = 112px
+interaction_distance = 112;
