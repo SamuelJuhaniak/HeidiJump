@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Level3","order":1,"path":"rooms/Level3/Level3.yy",},
     {"name":"levelMusic","order":1,"path":"sounds/levelMusic/levelMusic.yy",},
   ],
 }
