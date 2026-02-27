@@ -12,14 +12,22 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
+<<<<<<<< HEAD:sprites/sWinPlayer/sWinPlayer.yy
     {"$GMSpriteFrame":"v1","%Name":"390567c5-d09c-4d00-9f0d-5d0383edfb22","name":"390567c5-d09c-4d00-9f0d-5d0383edfb22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+========
+    {"$GMSpriteFrame":"v1","%Name":"a1d29f58-7752-411b-9227-b1deed78ed31","name":"a1d29f58-7752-411b-9227-b1deed78ed31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+>>>>>>>> Samo:sprites/sHealthWin/sHealthWin.yy
   ],
   "gridX":0,
   "gridY":0,
   "height":16,
   "HTile":false,
   "layers":[
+<<<<<<<< HEAD:sprites/sWinPlayer/sWinPlayer.yy
     {"$GMImageLayer":"","%Name":"90fdcea9-527a-418c-a355-4bbd9651f17c","blendMode":0,"displayName":"default","isLocked":false,"name":"90fdcea9-527a-418c-a355-4bbd9651f17c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+========
+    {"$GMImageLayer":"","%Name":"cbf75946-38f9-46fc-bdbd-80db5c6b2534","blendMode":0,"displayName":"default","isLocked":false,"name":"cbf75946-38f9-46fc-bdbd-80db5c6b2534","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+>>>>>>>> Samo:sprites/sHealthWin/sHealthWin.yy
   ],
   "name":"sWinPlayer",
   "nineSlice":null,
@@ -69,8 +77,13 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+<<<<<<<< HEAD:sprites/sWinPlayer/sWinPlayer.yy
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"390567c5-d09c-4d00-9f0d-5d0383edfb22","path":"sprites/sWinPlayer/sWinPlayer.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"82f64c13-bb4f-49ee-bc73-4e532abc1fbe","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+========
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1d29f58-7752-411b-9227-b1deed78ed31","path":"sprites/sHealthWin/sHealthWin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b6e6b8fe-bff8-498a-8713-185d04316214","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+>>>>>>>> Samo:sprites/sHealthWin/sHealthWin.yy
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,6 +1,11 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"blue_sky_background_in_sunny_bright_day_vector","order":1,"path":"sprites/blue_sky_background_in_sunny_bright_day_vector/blue_sky_background_in_sunny_bright_day_vector.yy",},
+    {"name":"oDirt","order":1,"path":"objects/oDirt/oDirt.yy",},
+    {"name":"oPlatform","order":3,"path":"objects/oPlatform/oPlatform.yy",},
+    {"name":"oRockPlatform","order":4,"path":"objects/oRockPlatform/oRockPlatform.yy",},
+    {"name":"oSpikes","order":2,"path":"objects/oSpikes/oSpikes.yy",},
+    {"name":"victoryMusic","order":1,"path":"sounds/victoryMusic/victoryMusic.yy",},
+    {"name":"sHealthWin","order":1,"path":"sprites/sHealthWin/sHealthWin.yy",},
   ],
 }
