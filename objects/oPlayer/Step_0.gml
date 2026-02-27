@@ -23,6 +23,8 @@ if(currentHealth > 0 && canMove == true){ //Health check!
 		}
 	}
 
+	move_and_collide(x_speed, y_speed, oSolid);
+
 	// I added more controls :D
 
 	// RESTART GAME
@@ -56,11 +58,10 @@ if(currentHealth > 0 && canMove == true){ //Health check!
 			
 		}
 
-	move_and_collide(x_speed, y_speed, oSolid);
-	}else{
-		//GAME OVER SCREEN
-		//SOUND
-		room_goto(GameOver);
-		
 	}
+	
+	if(currentHealth <= 0){
+		room_goto(GameOver);
+	}
+	
 }

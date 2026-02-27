@@ -19,6 +19,7 @@
     {"$GMFolder":"","%Name":"GameOver","folderPath":"folders/Objects/GameOver.yy","name":"GameOver","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Managers","folderPath":"folders/Objects/Managers.yy","name":"Managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu","folderPath":"folders/Objects/Menu.yy","name":"Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Victory","folderPath":"folders/Objects/Victory.yy","name":"Victory","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scenes","folderPath":"folders/Scenes.yy","name":"Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GameOver","folderPath":"folders/Sprites/GameOver.yy","name":"GameOver","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,11 +39,8 @@
     {"id":{"name":"buttonFont","path":"fonts/buttonFont/buttonFont.yy",},},
     {"id":{"name":"MusicManager","path":"objects/MusicManager/MusicManager.yy",},},
     {"id":{"name":"oButtonParent","path":"objects/oButtonParent/oButtonParent.yy",},},
-<<<<<<< Updated upstream
-=======
     {"id":{"name":"oCreators","path":"objects/oCreators/oCreators.yy",},},
     {"id":{"name":"oCrown","path":"objects/oCrown/oCrown.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"oDirt","path":"objects/oDirt/oDirt.yy",},},
     {"id":{"name":"oFlag","path":"objects/oFlag/oFlag.yy",},},
     {"id":{"name":"oFlag1","path":"objects/oFlag1/oFlag1.yy",},},
@@ -57,11 +55,9 @@
     {"id":{"name":"oSkeleton","path":"objects/oSkeleton/oSkeleton.yy",},},
     {"id":{"name":"oSolid","path":"objects/oSolid/oSolid.yy",},},
     {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},},
-<<<<<<< Updated upstream
-=======
     {"id":{"name":"oVictoryButton","path":"objects/oVictoryButton/oVictoryButton.yy",},},
->>>>>>> Stashed changes
     {"id":{"name":"oWin","path":"objects/oWin/oWin.yy",},},
+    {"id":{"name":"oWinPlayer","path":"objects/oWinPlayer/oWinPlayer.yy",},},
     {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
@@ -78,6 +74,7 @@
     {"id":{"name":"victoryMusic","path":"sounds/victoryMusic/victoryMusic.yy",},},
     {"id":{"name":"winMusic","path":"sounds/winMusic/winMusic.yy",},},
     {"id":{"name":"backgroundImage","path":"sprites/backgroundImage/backgroundImage.yy",},},
+    {"id":{"name":"blue_sky_background_in_sunny_bright_day_vector","path":"sprites/blue_sky_background_in_sunny_bright_day_vector/blue_sky_background_in_sunny_bright_day_vector.yy",},},
     {"id":{"name":"cave","path":"sprites/cave/cave.yy",},},
     {"id":{"name":"flagImage","path":"sprites/flagImage/flagImage.yy",},},
     {"id":{"name":"health","path":"sprites/health/health.yy",},},
@@ -86,6 +83,7 @@
     {"id":{"name":"rock","path":"sprites/rock/rock.yy",},},
     {"id":{"name":"sBack","path":"sprites/sBack/sBack.yy",},},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
+    {"id":{"name":"sCrown","path":"sprites/sCrown/sCrown.yy",},},
     {"id":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},},
     {"id":{"name":"sFlag","path":"sprites/sFlag/sFlag.yy",},},
     {"id":{"name":"sFlag1","path":"sprites/sFlag1/sFlag1.yy",},},
@@ -101,6 +99,7 @@
     {"id":{"name":"sSkeleton","path":"sprites/sSkeleton/sSkeleton.yy",},},
     {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},},
     {"id":{"name":"sWin","path":"sprites/sWin/sWin.yy",},},
+    {"id":{"name":"sWinPlayer","path":"sprites/sWinPlayer/sWinPlayer.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -108,12 +107,8 @@
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
-<<<<<<< Updated upstream
-=======
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
-    {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
->>>>>>> Stashed changes
     {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"roomId":{"name":"Victory","path":"rooms/Victory/Victory.yy",},},
   ],
