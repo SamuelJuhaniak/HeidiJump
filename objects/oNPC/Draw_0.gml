@@ -1,4 +1,4 @@
-draw_self();
+/*draw_self();
 
 if (player_near && !dialog_active)
 {
@@ -20,4 +20,15 @@ if (dialog_active)
     draw_set_color(c_white);
 
     draw_text_transformed(box_x + 1, box_y + 3, dialog_text[dialog_index], 0.3, 0.3, 0);
+}
+*/
+
+// GUI should be better
+
+draw_self();
+
+if (player_near && !dialog_active)
+{
+    draw_set_color(c_white);
+    draw_text_transformed(x - 3, y - 15, "Press E", 0.3, 0.3, 0); //I found the BUG
 }

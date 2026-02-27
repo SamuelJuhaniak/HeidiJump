@@ -1,4 +1,5 @@
 dialog_text = [
+	"Press E",
     "Mom, is that you?",
 	"I hope u like this Game",
 	"This is our first game!!",

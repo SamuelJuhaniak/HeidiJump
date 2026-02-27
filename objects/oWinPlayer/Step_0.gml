@@ -34,4 +34,3 @@ if (place_meeting(x, y, oSpikes) || y > room_height || y < 0 || x > room_width |
 			
 
 move_and_collide(x_speed, y_speed, oSolid);
-
