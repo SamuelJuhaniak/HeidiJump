@@ -23,45 +23,42 @@ if(currentHealth > 0 && canMove == true){ //Health check!
 		}
 	}
 
-	move_and_collide(x_speed, y_speed, oSolid);
-
 	// I added more controls :D
 
 	// RESTART GAME
 	if (place_meeting(x, y, oSpikes) || y > room_height || y < 0 || x > room_width || x < 0) { 
-	    if(currentHealth > 0) {
-			currentHealth--; 
-			// NEJAKY DEAD EFFECT 
-			MusicManager.musicToPlay = dieSound;
-			MusicManager.musicPriority = 1;
-			MusicManager.musicLoop = false;
-			// Red screen
-			
-			flash_alpha = 0.6; // sila efektu
-			alarm[0] = room_speed * 0.2;
-			//room.layer_background
-			
-			switch(room){
-				case Level1:
-					x = 48;
-					y = 128;
-					break;
-				case Level2:
-					x = 48;
-					y = 32;
-					break;
-				case Level3:
-					x = 64;
-					y= 80;
-					break;
-			}
-			
+		currentHealth--; 
+		// NEJAKY DEAD EFFECT 
+		if(currentHealth != 0){
+		MusicManager.musicToPlay = dieSound;
+		MusicManager.musicPriority = 1;
+		MusicManager.musicLoop = false;
 		}
+		// Red screen
+			
+		flash_alpha = 0.6; // sila efektu
+		alarm[0] = room_speed * 0.2;
+		//room.layer_background
+			
+		switch(room){
+			case Level1:
+				x = 48;
+				y = 128;
+				break;
+			case Level2:
+				x = 48;
+				y = 32;
+				break;
+			case Level3:
+				x = 64;
+				y= 80;
+				break;
+		}
+			
+	
+	}
 
-	}
-	
-	if(currentHealth <= 0){
-		room_goto(GameOver);
-	}
-	
+	move_and_collide(x_speed, y_speed, oSolid);
+}else{
+	room_goto(GameOver);
 }
